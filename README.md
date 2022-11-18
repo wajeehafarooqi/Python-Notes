@@ -33,18 +33,17 @@ def f():
  As in programming data types are the first class citizens.You can apply all operations on it. In python function are Ist Class Citizen<br>type(function_name) it defines the type which is function in this case <br>id(function_name) it defines the address in memory
  
 - Assignement x = function_name
-- del function_name: it will delete the function<br>
+- del function_name: it will delete the function
 - Storing: e.g 
   ```L=[1,2,3,function_name]
-    L[-1](3)
-    ```
+     L[-1](3)
+   ```
 - Returning one function to another function:
   ```
- def f():
+  def f():
   def x(a,b):
     return a+b
- return x 
- 
- val = f()(3,4)
- print(val)
+  return x 
+  val = f()(3,4)
+  print(val)
 ```
