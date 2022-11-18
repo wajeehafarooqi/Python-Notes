@@ -4,9 +4,11 @@
 # Function: 
  It a small segment of a program. In python function are just like other data types. We can perform all functions on it, which we can apply on other data types.<br> 
 ## **Syntax:**
+```
 def function_name():<br>
 &nbsp;&nbsp;&nbsp;&nbsp;body of fynction<br>
-function_name() # call of function<br>
+function_name()
+```
 <u>**Explanation:**</u><br>
   <p>whenever control find def keyword it will jump to the next line of functiondefinition end. it execute all line of code wen it find call of function it will jump to def and start executing the function definition body.
   always rember, whenever the function call there is a memory space allocated to it other than main program memory space. the life of the function end when it returns the value.</p>
