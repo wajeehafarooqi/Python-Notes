@@ -1,8 +1,9 @@
 # Python-Notes
 
 
-Function: it a small segment of a program. In python function are just like other data types. We can perform all functions on it, which we can apply on other data types.<br> 
-<u>**Syntax:**</u><br>
+# Function: 
+ It a small segment of a program. In python function are just like other data types. We can perform all functions on it, which we can apply on other data types.<br> 
+## **Syntax:**
 def function_name():<br>
 &nbsp;&nbsp;&nbsp;&nbsp;body of fynction<br>
 function_name() # call of function<br>
