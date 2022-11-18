@@ -130,3 +130,25 @@ users = [
 
 list(map(lambda users:users['gender'],users))
 ```
+## Filter
+A filtering operation processes an iterable and extracts the items that satisfy a given operation. 
+**SYNTAX: filter(function, iterables)**
+```
+# numbers greater than 5
+L = [3,4,5,6,7]
+
+list(filter(lambda x:x>5,L))
+```
+```
+# fetch fruits starting with 'a'
+fruits = ['apple','guava','cherry']
+
+list(filter(lambda x:x.startswith('a'),fruits))
+```
+## Reduce
+unlike map and filter which give you sequence as output, reduce function give you single output.
+```
+# find min
+import functools
+functools.reduce(lambda x,y:x if x>y else y,[23,11,45,10,1])
+```
