@@ -2,7 +2,11 @@
 
 
 # Function: 
- It a small segment of a program. In python function are just like other data types. We can perform all functions on it, which we can apply on other data types.<br> 
+ It a small segment of a program. In python function are just like other data types. We can perform all functions on it, which we can apply on other data types.
+ **Benefits of using a Function**
+  - Code Modularity
+  - Code Readibility
+  - Code Reusability 
 ## **Syntax:**
 ```
 def function_name():
@@ -35,7 +39,8 @@ def f():
 - Assignement x = function_name
 - del function_name: it will delete the function
 - Storing: e.g 
-  ```L=[1,2,3,function_name]
+  ```
+     L=[1,2,3,function_name]
      L[-1](3)
    ```
 - Returning one function to another function:
@@ -46,4 +51,21 @@ def f():
   return x 
   val = f()(3,4)
   print(val)
+  ```
+
+## Lambda Function
+
+A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
 ```
+ lambda parameters : Expression
+ where 
+ lambda is a keyword,it creates lambda expression
+ parameters: one or more parameters are supported but separated by commas
+ expression: must be single valid python expression
+ 
+```
+**Difference between lambda vs Normal Function**
+- No name
+- lambda has no return value(infact,returns a function)
+- lambda is written in 1 line
+- not reusable
