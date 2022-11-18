@@ -69,3 +69,30 @@ A lambda function is a small anonymous function. A lambda function can take any 
 - lambda has no return value(infact,returns a function)
 - lambda is written in 1 line
 - not reusable
+WHY?
+for HOF
+## Higher Order Function
+ - Function which return function. 
+ - Function which take input a function
+ ```
+  def square(x)
+    return x**2
+  def fun_hof(f,L):
+    data=[]
+    for i in L:
+      data.append(f(i))
+   print(data)
+ L = [1,2,3,4,5]
+ fun_hof(square,L)     
+ ```
+ 
+ ```
+ def fun_hof(f,L):
+    data=[]
+    for i in L:
+      data.append(f(i))
+   print(data)
+ L = [1,2,3,4,5]
+ fun_hof(lambda x:x**2,L)    
+ 
+ ```
