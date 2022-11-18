@@ -96,3 +96,10 @@ for HOF
  fun_hof(lambda x:x**2,L)    
  
  ```
+## MAP
+The map() function is a higher-order function. As previously stated, this function accepts another function and a sequence of ‘iterables’ as parameters and provides output after applying the function to each iterable in the sequence. It has the following syntax:
+
+**SYNTAX: map(function, iterables)**
+
+The function is used to define an expression which is then applied to the ‘iterables’. User-defined functions and lambda functions can both be sent to the map function.
+User-defined functions can be sent to the map() method. The user or programmer is the only one who can change the parameters of these functions.
