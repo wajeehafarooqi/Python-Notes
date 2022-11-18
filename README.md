@@ -103,3 +103,30 @@ The map() function is a higher-order function. As previously stated, this functi
 
 The function is used to define an expression which is then applied to the ‘iterables’. User-defined functions and lambda functions can both be sent to the map function.
 User-defined functions can be sent to the map() method. The user or programmer is the only one who can change the parameters of these functions.
+```
+# square the items of a list
+list(map(lambda x:x**2,[1,2,3,4,5]))
+```
+```
+# fetch names from a list of dict
+
+users = [
+    {
+        'name':'Ahmad',
+        'age':25,
+        'gender':'male'
+    },
+    {
+        'name':'Martin',
+        'age':33,
+        'gender':'male'
+    },
+    {
+        'name':'Sara',
+        'age':30,
+        'gender':'female'
+    }
+]
+
+list(map(lambda users:users['gender'],users))
+```
